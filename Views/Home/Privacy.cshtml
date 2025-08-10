@@ -1,0 +1,35 @@
+@{
+    ViewData["Title"] = "Política de Privacidad";
+}
+
+<style>
+  body{
+    background: linear-gradient(135deg,#0f4c5c,#1b6b73);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#eaf2f4; margin:0;
+  }
+  .card{
+    max-width:820px; margin:40px auto; padding:28px;
+    background:rgba(0,0,0,.25); border-radius:14px;
+    box-shadow:0 10px 24px rgba(0,0,0,.25);
+  }
+  .title{
+    font-size:clamp(22px,3.5vw,30px); font-weight:800;
+    margin:0 0 14px; text-align:center;
+  }
+  .text{
+    font-size:1.05rem; line-height:1.6; text-align:justify;
+  }
+</style>
+
+<div class="card">
+  <h1 class="title">@ViewData["Title"]</h1>
+
+  <div class="text">
+    <p><strong>Autor:</strong> Williams Josue Picón Escobar</p>
+    <p><strong>Carrera:</strong> Ingeniería en Sistemas</p>
+    <p>Este proyecto corresponde a una práctica para el curso <em>Análisis en Sistemas 2</em>. 
+       El objetivo de esta página es demostrar el manejo de ASP.NET Core MVC, la integración de vistas personalizadas y el uso de estilos unificados para todo el sistema. 
+       Además, se busca aplicar buenas prácticas de diseño, coherencia visual y organización del código para su fácil mantenimiento.</p>
+  </div>
+</div>
